@@ -64,7 +64,7 @@ async function askAI() {
         "fixed_code_only": "optimized fixed code here, with short comment next to the fixed error line"
       }`;
 
-    const res = await fetch("http://localhost:3000/", {
+    const res = await fetch("/api/solve", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
