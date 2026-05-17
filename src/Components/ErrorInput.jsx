@@ -14,7 +14,7 @@ const ErrorInput = () => {
         </div>
 
         <div className='mt-2 flex flex-wrap gap-2'>
-            <button onClick={handlefixbug} disabled={loading} className='flex items-center gap-1.5 md:gap-2 bg-[#b4432f] text-(--text-color) px-3 md:px-4 py-1 md:py-1.5 rounded-sm outline-0 cursor-pointer shadow-[0_4px_10px_rgba(0,0,0,0.5)] hover:bg-[#c5513a] active:bg-[#eb5f47] active:text-white transition-all disabled:opacity-50 disabled:cursor-not-allowed text-md'>
+            <button onClick={handlefixbug} disabled={loading} className='mt-2 flex items-center gap-1.5 md:gap-2 bg-[#b4432f] text-(--text-color) px-3 md:px-4 py-1 md:py-1.5 rounded-sm outline-0 cursor-pointer shadow-[0_4px_10px_rgba(0,0,0,0.5)] hover:bg-[#c5513a] active:bg-[#eb5f47] active:text-white transition-all disabled:opacity-50 disabled:cursor-not-allowed text-md'>
               <img src={assets.Bold_right_arrow} alt="" className='w-4 md:w-5'/><span>{loading ? "Processing..." : "Fix Bug"}</span>
             </button>
         </div>
