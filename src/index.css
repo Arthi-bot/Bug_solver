@@ -1,0 +1,47 @@
+/* googlel font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Taiilwind css import */
+@import "tailwindcss";
+
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+:root{
+    --bg-color: #111622;
+    --primary-color: #222837;
+    --secondary-color: #353b4d;
+    --outline: #575863;
+    --text-color: #c4c6d6;
+    --header-color: #1c202b;
+}
+/* scrollbar smooth */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-color);
+}
+
+.monaco-editor .margin {
+  border-right: 1px solid #444;
+}
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* hide scroll bar in unwanted place */
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;    
+}
+
+.output-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.output-scroll::-webkit-scrollbar-thumb {
+  background: var(--outline);
+  border-radius: 4px;
+}
