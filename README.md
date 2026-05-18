@@ -1,5 +1,5 @@
 # Bug Solver (AI-Powered Debugging Tool)
-An AI-powered bug-solving web application built using React.js that helps developers identify and resolve coding errors faster. Users can submit code issues, receive AI-generated debugging suggestions, and view responses in a clean developer-friendly interface powered by Monaco Editor.
+Bug Solver helps developers find and fix code errors using AI-powered debugging. It analyzes buggy code, provides optimized fixes with simple explanations, and lets users instantly run the AI-fixed code to verify the solution.
 
 ### Live Demo
 https://bug-solver.vercel.app/
@@ -8,20 +8,21 @@ https://bug-solver.vercel.app/
 ![Bug Solver Preview](./src/assets/Project_Preview.png)
 
 ### Features
-- AI-powered bug detection and debugging suggestions
-- Syntax-highlighted code editor for better readability and editing
-- Loading and feedback states for improved user experience during API processing
+- AI Bug Detection & Fixing – Detects code errors and provides AI-generated fixes using Google Gemini API.
+- Code Execution – Run the AI-fixed code instantly to verify the output using Judge0.
+- Interactive Code Editor – Smooth coding experience with syntax highlighting powered by Monaco Editor.
+- Simple Explanations – Understand the bug and solution with beginner-friendly explanations.
 
 ### Tech Stack
 - React.js
 - Tailwind CSS
-- AI API Integration
+- Gemini AI API
 - Vercel Serverless Functions
 - Monaco Editor
+- Judge0
 
 ### What I Learned
-- Managing API calls and handling asynchronous data efficiently
-- Integrating AI APIs into real-world applications
-- Using Monaco Editor for interactive code editing experiences
-- Creating backend endpoints with Vercel Serverless Functions
-- Improving debugging, problem-solving, and full-stack deployment skills
+- Integrating AI APIs like Google Gemini API into a real-world application.
+- Working with Monaco Editor to build an interactive code editor experience.
+- Using Judge0 for real-time code execution and validation.
+- Improving API handling, debugging skills.
